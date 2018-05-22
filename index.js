@@ -6,7 +6,12 @@ function driversWithRevenueOver(arr, revenue){
   );
 }
 
-function driverNamesWithRevenueOver(){
+function driverNamesWithRevenueOver(arr, revenue){
+  return driversWithRevenueOver(arr).map(
+    function(obj){
+      return obj.name;
+    }
+  );
 }
 
 function exactMatch(){
