@@ -10,7 +10,12 @@ function driverNamesWithRevenueOver(arr, revenue){
   );
 }
 
-function exactMatch(){
+function exactMatch(arr, obj){
+  return arr.filter(
+    function (arrObj){
+      return ;
+    }
+  );
 }
 
 function exactMatchToList(){
