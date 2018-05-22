@@ -19,5 +19,8 @@ function exactMatch(arr, obj){
   );
 }
 
-function exactMatchToList(){
+function exactMatchToList(arr, obj){
+  return exactMatch(arr, obj).map(
+    function (arrObj){return arrObj[Object.keys];}
+  );
 }
